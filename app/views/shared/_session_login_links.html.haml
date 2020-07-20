@@ -2,6 +2,7 @@
   %aside
     = image_tag current_user.gravatar_url, class: "navbar-avatar"
     %div.nav-dropdown
+      = link_to 'My Profile', manage_account_path # Change to correct path
       = link_to "Manage Account (#{current_user.display_name})", manage_account_path
       = link_to 'Sign Out', destroy_user_session_path, method: :delete
 - else

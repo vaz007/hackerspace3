@@ -6,13 +6,14 @@
         - if user_signed_in?
           = link_to 'Events', events_path
           = link_to 'Challenges', challenges_path
-          = link_to 'Projects', projects_path
           = link_to 'Datasets', data_sets_path
+          = link_to 'Projects', projects_path
+          = link_to 'Teams', manage_account_path # Change to correct path
+          = link_to 'Help', root_path # Change to correct path
         - else
-          - unless @competition.started?
-            = link_to 'Conference', conference_index_path
           = link_to 'Events', events_path
           = link_to 'Challenges', challenges_path
-          = link_to 'Projects', projects_path
           = link_to 'Datasets', data_sets_path
+          = link_to 'Projects', projects_path
+          = link_to 'Help', root_path # Change to correct path
     = render "shared/session_login_links"
