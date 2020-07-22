@@ -1,2 +1,0 @@
-module TeamManagement::TeamDataSetsHelper
-end

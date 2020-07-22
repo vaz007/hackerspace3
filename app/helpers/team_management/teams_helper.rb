@@ -1,2 +1,0 @@
-module TeamManagement::TeamsHelper
-end
