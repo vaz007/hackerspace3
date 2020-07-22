@@ -1,0 +1,23 @@
+#conferencePageJumbotron{
+    background-color: #87CEEB;
+    color: white;
+}
+#featuredSpeakerImage{
+    height: 150px;
+    width: 150px;
+    text-align: left;
+    margin-right: 2rem;
+}
+
+#featuredSpeakerHeader{
+    margin-bottom: 3rem;
+}
+#featuredSpeakerNameAndContent{
+    margin-left: 3rem;
+}
+.speakerRow{
+    margin-bottom: 2rem;
+}
+.speakerNameHeader{
+    font-family: 'PT Serif', serif;
+}
